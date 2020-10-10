@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --watch --project tsconfig.json",
-    "dev": "serverless offline start",
+    "start": "serverless offline start",
+    "dev": "concurrently \"npm run build\" \"npm run start\"",
     "deploy": "tsc --project tsconfig.json && sls deploy"
   },
   "keywords": [],
@@ -17,7 +18,8 @@
     "@types/express": "^4.17.8",
     "@types/express-session": "^1.17.0",
     "@types/passport": "^1.0.4",
-    "@types/passport-oauth2": "^1.4.9"
+    "@types/passport-oauth2": "^1.4.9",
+    "concurrently": "^5.3.0"
   },
   "dependencies": {
     "axios": "^0.20.0",
