@@ -1,4 +1,4 @@
-# serverless-typescript-boilerplate\
+# serverless-typescript-boilerplate
 
 This is a work in progress. Further documentation to come.
 
