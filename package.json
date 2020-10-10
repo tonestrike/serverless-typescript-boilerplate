@@ -9,7 +9,7 @@
     "deploy": "tsc --project tsconfig.json && sls deploy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tony Giorgi",
   "license": "ISC",
   "devDependencies": {
     "@types/axios": "^0.14.0",
