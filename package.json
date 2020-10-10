@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --watch --project tsconfig.json",
-    "dev": "serverless offline start"
+    "dev": "serverless offline start",
+    "deploy": "tsc --project tsconfig.json && sls deploy"
   },
   "keywords": [],
   "author": "",
